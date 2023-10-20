@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package common.proto;
+option go_package="github.com/yanet-platform/yanet/libprotobuf;yanet_proto";
 
 message RpcMeta {
   optional string service_name = 1;

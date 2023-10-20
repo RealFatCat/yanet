@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package common.icp_proto;
 option cc_generic_services = true;
+option go_package="github.com/yanet-platform/yanet/libprotobuf;yanet_proto";
 
 message IPAddr {
   oneof addr{
